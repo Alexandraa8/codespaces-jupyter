@@ -1,3 +1,5 @@
+print("Hello")
+
 x = "Hello"
 y = "My name is Alexandra"
 
