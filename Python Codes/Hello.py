@@ -32,3 +32,20 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+#Code6 Datum: 19.12.2024
+x = "Ich mag Hasen"
+print(x)
+
+#Code7
+x = "Ich"
+y = "mag"
+z = "Hasen"
+print(x)
+print(y)
+print(z)
+
+#Code8
+x = 5
+y = 5
+print(x + y)
