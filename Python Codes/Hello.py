@@ -49,3 +49,8 @@ print(z)
 x = 5
 y = 5
 print(x + y)
+
+#Code9
+x = 5
+y = 5
+print(5*5)
