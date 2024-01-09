@@ -33,7 +33,7 @@ print(x)
 print(y)
 print(z)
 
-#Code6 Datum: 19.12.2024
+#Code6 
 x = "Ich mag Hasen"
 print(x)
 
@@ -54,3 +54,34 @@ print(x + y)
 x = 5
 y = 5
 print(5*5)
+
+#Code10
+#if-Anweisungen
+a = 50
+b = 100
+if a < b:
+    print("b is greater than a")
+
+#Code11
+#if the previous conditions were not true, then try this condition
+a = 50
+b = 50
+if a > b:
+        print("a is greater than b")
+elif a == b:
+        print("a and b are equal")
+
+#Code12
+#else
+a = 50
+b = 100
+if a > b:
+      print("a is greater than b")
+else:
+      print("b is greater than a")
+
+#Code13
+#if and else in the same line
+a = 50
+b = 100
+print ("50") if a > b else print("100")
