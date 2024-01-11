@@ -85,3 +85,19 @@ else:
 a = 50
 b = 100
 print ("50") if a > b else print("100")
+
+#Code14
+#range
+for x in range(8):
+      print(x)
+#other example
+for y in range(4, 8):
+      print(y)
+
+#Code15
+for z in range(8):
+     if z == 4: break
+else:
+     print("Fertig!")
+
+
