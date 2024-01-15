@@ -100,4 +100,40 @@ for z in range(8):
 else:
      print("Fertig!")
 
+#Code16
+#Array
+cars = ["Mercedes", "BMW", "Audi"]
+
+x = cars[0]
+print(x)
+
+#Code17
+cars = ["Mercedes", "BMW", "Audi"]
+
+y = len(cars)
+print(y)
+
+#Code18
+cars = ["Mercedes", "BMW", "Audi"]
+
+for x in cars:
+      cars = x
+      print(x)
+
+#Code19
+#Automarke hinzufügen
+cars = ["Mercedes", "BMW", "Audi"]
+
+cars.append("Porsche")
+print(cars)
+
+#Code20
+#Automarke entfernen
+cars = ["Mercedes", "BMW", "Audi"]
+cars.pop(1)
+print(cars)
+
+
+
+
 
