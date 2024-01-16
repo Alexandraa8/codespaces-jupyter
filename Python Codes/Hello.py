@@ -133,6 +133,50 @@ cars = ["Mercedes", "BMW", "Audi"]
 cars.pop(1)
 print(cars)
 
+#Code21
+#Python Math
+y = min(7, 14, 21)
+x = max(7, 14, 21)
+
+print(x)
+print(y)
+
+#Code22
+#abs
+x = abs(-8.56)
+
+print(x)
+
+#Code23
+#pow
+p = pow(4, 5)
+
+print(p)
+
+#Code24
+#sqrt
+import math
+
+s = math.sqrt(64)
+
+print(s)
+
+#Code25
+#pi
+import math
+
+p = math.pi
+print(p)
+
+#Code26
+#JSON
+import json
+
+x = '{"name": "Alexandra", "age": 19, "city": "Kirchardt" }'
+
+y = json.loads(x)
+print(y["name"])
+
 
 
 
