@@ -177,6 +177,37 @@ x = '{"name": "Alexandra", "age": 19, "city": "Kirchardt" }'
 y = json.loads(x)
 print(y["name"])
 
+#Code27
+#lambda
+x = lambda a: a + 10
+print(x(5))
+
+#Code28
+x = lambda a, b, c: a + b + c
+print(x(8, 7, 2))
+
+#Code29
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(4)
+
+print(mydoubler(12))
+
+#Code30
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+mytripler = myfunc(4)
+
+print(mydoubler(11)) 
+print(mytripler(11))
+
+
+
+
+
 
 
 
