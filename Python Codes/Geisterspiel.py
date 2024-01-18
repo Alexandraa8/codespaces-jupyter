@@ -20,18 +20,26 @@ du_bist_mutig = True
 Türanzahl = 0
 
 while du_bist_mutig:
-    geistertür = randint (1, 3)
-    print (' ')
-    print ('Vor dir sind insgesamt 3 Türen')
-    print ('Hinter einer der drei Türen, ist der Geist versteckt')
-    print ('Welche Tür öffnest du?')
+	geistertuer = randint(1, 3)
+	print(' ')
+	print('Vor dir sind drei Türen.')
+	print('Hinter einer ist ein Geist.')
+	print('Welche Tür öffnest du?')
+	tuer = input('1, 2 oder 3? ')
+	tuer_nummer = int(tuer)
+	if tuer_nummer == geistertuer:
+		print('Buuuhh')
+		print('Renn!')
+		du_bist_mutig = False
+	else:
+		print('Kein Geist!')
+		print('Du bis ein Zimmer weiter.')
+		score = score + 1
 
-    tür = input ('Öffne Tür 1, 2 oder 3')
-    tuer_nummer = int
+print(' ')
+print('Game over! Deine Punkte: ', score)
 
-    if tuer_nummer == geistertür:
-        print('Buuhh')
-        
+
 
 
 
