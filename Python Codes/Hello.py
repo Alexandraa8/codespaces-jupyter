@@ -204,6 +204,22 @@ mytripler = myfunc(4)
 print(mydoubler(11)) 
 print(mytripler(11))
 
+#Code31
+from random import randrange
+n = 10
+a = [randrange(1, 10) for i in range(n)]
+print(a)
+
+#Code32
+A = [1, 2, 3, 4, 5]
+A[2:4] = [7, 8, 9]
+print(A)
+
+#Code33
+A = [1, 2, 3, 4, 5, 6, 7]
+A[::-2] = [10, 20, 30, 40]
+print(A)
+
 
 
 
