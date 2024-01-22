@@ -220,6 +220,25 @@ A = [1, 2, 3, 4, 5, 6, 7]
 A[::-2] = [10, 20, 30, 40]
 print(A)
 
+#Code34
+#if else Anweisungen
+wert = 9
+if wert < 5:
+    print('Wert ist kleiner als 5')
+elif wert == 5:
+    print('Wert ist exakt 5')
+else:
+    print('Wert ist größer als 5')
+
+#Code35
+wert = 9
+if wert < 5:
+    print('Wert ist kleiner als 5')
+else:
+    print('Wert ist größer als 4')
+
+
+
 
 
 
