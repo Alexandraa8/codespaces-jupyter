@@ -237,11 +237,22 @@ if wert < 5:
 else:
     print('Wert ist größer als 4')
 
+#Code36
+vornamen = ['Alex', 'Lisa', 'Lukas']
+for einzelwert in vornamen:
+     if einzelwert == "Alex":
+            print("Ich")
+else:
+            print(einzelwert)
+print("nach der for-Schleife")
 
+#Code37
+vornamen = ['Alex', 'Lisa', 'Lukas']
 
-
-
-
+nummer = 0
+for einzelwert in vornamen:
+    print(nummer, einzelwert)
+    nummer += 1
 
 
 
