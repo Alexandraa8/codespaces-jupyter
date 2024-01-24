@@ -254,6 +254,13 @@ for einzelwert in vornamen:
     print(nummer, einzelwert)
     nummer += 1
 
+#Code38
+import random
+lottozahlen = []
+lottozahlen.extend(range(1,50))
+random.shuffle(lottozahlen)
+for x in range(6):
+    print(lottozahlen[x])
 
 
 
