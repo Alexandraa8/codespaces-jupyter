@@ -244,7 +244,8 @@ for einzelwert in vornamen:
             print("Ich")
 else:
             print(einzelwert)
-print("nach der for-Schleife")
+print
+("nach der for-Schleife")
 
 #Code37
 vornamen = ['Alex', 'Lisa', 'Lukas']
@@ -262,6 +263,22 @@ random.shuffle(lottozahlen)
 for x in range(6):
     print(lottozahlen[x])
 
+#Code39
+#if.. else
+number = 5
+
+# äußeren
+if number >= 0:
+    # inneren
+    if number == 0:
+      print('Number is 0')
+    
+    # inneren
+    else:
+        print('Number is positive')
+#äußeren
+else:
+    print('Number is negative')
 
 
 
