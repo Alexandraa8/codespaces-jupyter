@@ -38,3 +38,21 @@ while go:
                 richtung = 2
             if event.key == pygame.K_LEFT and richtung != 1:
                 richtung = 3
+
+zahl = len(schlange)-1
+for i in range(1,len(schlange)):
+    schlange[zahl] = schlange[-1].copy()
+    zahl -= 1
+
+if richtung == 0:
+    schlange[0][1] -= 1
+if richtung == 1:
+    schlange[0][0] += 1
+if richtung == 2:
+    schlange[0][1] += 1
+if richtung == 3:
+    schlange[0][0] -= 1
+
+if ende == False:
+    zeichner()
+    
