@@ -55,4 +55,9 @@ if richtung == 3:
 
 if ende == False:
     zeichner()
-    
+    pygame.display.update()
+
+else:
+    print("Du hast " + str(score) + "Punkte erreichen")
+    sys.exit()
+clock.tick(10)
