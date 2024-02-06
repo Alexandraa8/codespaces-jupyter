@@ -280,6 +280,21 @@ if number >= 0:
 else:
     print('Number is negative')
 
+#Code40
+# Hier Link: https://webtigerjython.ethz.ch/?prog=https://www.tjgroup.ch/progs/gp/Gp7a.py
+from gpanel import *
+
+makeGPanel(-30, 30, 0, 60)
+
+x = -30
+while x <= 30:
+    if x <= 0:
+        setColor("magenta")
+    else:    
+        setColor("cyan")
+    line(0, 50, x, 0)
+    x = x + 1
+
 
 
 
