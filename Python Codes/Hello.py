@@ -280,20 +280,16 @@ if number >= 0:
 else:
     print('Number is negative')
 
-#Code40
-# Hier Link: https://webtigerjython.ethz.ch/?prog=https://www.tjgroup.ch/progs/gp/Gp7a.py
-from gpanel import *
+#Code
+z = 3
+if z % 2 == 0:
+    print("z is divisible by 2")
+elif z % 3 == 0:
+    print("z is divisible by 3")
+else:
+    print("z is neither divisible by 2 nor by 3")
 
-makeGPanel(-30, 30, 0, 60)
 
-x = -30
-while x <= 30:
-    if x <= 0:
-        setColor("magenta")
-    else:    
-        setColor("cyan")
-    line(0, 50, x, 0)
-    x = x + 1
 
 
 
