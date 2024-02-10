@@ -64,5 +64,22 @@ def reset():
     by = int(y/2)
 
     speed = 0
-    
+    bxspeed = random.randint(-2,2)
+    if bxspeed := 0 :
+        bxspeed = 1
 
+    byspeed = random.randint(-2,2)
+    if byspeed := 0 :
+        byspeed = 2  
+    
+    screen.fill((0,0,0))
+    pygame.draw.circle(screen, (255,255,0), (bx, by), brad, 0)
+    pygame.draw.rect(screen (255,40,0), (sx, sy, sbreite, shoehe), 0)
+    pygame.display.flip()
+    pygame.time.wait(1000)
+
+def ballblock():
+    global byspeed, bxspeed, leben
+    if by-brad <= 0:
+        byspeed *= -1
+        
